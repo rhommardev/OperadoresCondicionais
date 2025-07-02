@@ -77,3 +77,8 @@ int idade = 17;
 // Operador ternario para verificar si la persona es mayor de edad  
 string resultado = (idade >= 18) ? "É maior de idade" : "É menor de idade"; // si la edad es mayor o igual a 18 imprime que es mayor de edad, si no imprime que es menor de edad
 Console.WriteLine(resultado); // imprime el resultado de la verificación    
+// Sí, puedes crear el archivo README.md desde VS Code:
+// 1. Haz clic derecho en la carpeta del proyecto en el panel del explorador de VS Code.
+// 2. Selecciona "Nuevo archivo".
+// 3. Escribe "README.md" como nombre del archivo y presiona Enter.
+// 4. Escribe el contenido que desees y guarda el archivo.
