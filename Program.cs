@@ -28,3 +28,16 @@ else // si no se cumple la condicion
 
 //OPERADOR OR 
 
+bool ehMaiorDeIdade = true;
+bool possuiAutorizacaoDosPais = false;
+
+
+if (ehMaiorDeIdade || possuiAutorizacaoDosPais) // si eh maior de idade o possui autorizacion de los padres
+{
+    Console.WriteLine("Pode entrar na festa"); //imprime mensaje de que puede entrar a la fiesta
+}
+
+else // si no se cumple la condicion
+{
+    Console.WriteLine("Não pode entrar na festa"); //imprime mensaje de que no puede entrar a la fiesta
+}
