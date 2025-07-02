@@ -1,0 +1,15 @@
+C:\Users\Public\Documents\dotnet\OperadoresCondicionais\bin\Debug\net6.0\OperadoresCondicionais.exe
+C:\Users\Public\Documents\dotnet\OperadoresCondicionais\bin\Debug\net6.0\OperadoresCondicionais.deps.json
+C:\Users\Public\Documents\dotnet\OperadoresCondicionais\bin\Debug\net6.0\OperadoresCondicionais.runtimeconfig.json
+C:\Users\Public\Documents\dotnet\OperadoresCondicionais\bin\Debug\net6.0\OperadoresCondicionais.dll
+C:\Users\Public\Documents\dotnet\OperadoresCondicionais\bin\Debug\net6.0\OperadoresCondicionais.pdb
+C:\Users\Public\Documents\dotnet\OperadoresCondicionais\obj\Debug\net6.0\OperadoresCondicionais.csproj.AssemblyReference.cache
+C:\Users\Public\Documents\dotnet\OperadoresCondicionais\obj\Debug\net6.0\OperadoresCondicionais.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Public\Documents\dotnet\OperadoresCondicionais\obj\Debug\net6.0\OperadoresCondicionais.AssemblyInfoInputs.cache
+C:\Users\Public\Documents\dotnet\OperadoresCondicionais\obj\Debug\net6.0\OperadoresCondicionais.AssemblyInfo.cs
+C:\Users\Public\Documents\dotnet\OperadoresCondicionais\obj\Debug\net6.0\OperadoresCondicionais.csproj.CoreCompileInputs.cache
+C:\Users\Public\Documents\dotnet\OperadoresCondicionais\obj\Debug\net6.0\OperadoresCondicionais.dll
+C:\Users\Public\Documents\dotnet\OperadoresCondicionais\obj\Debug\net6.0\refint\OperadoresCondicionais.dll
+C:\Users\Public\Documents\dotnet\OperadoresCondicionais\obj\Debug\net6.0\OperadoresCondicionais.pdb
+C:\Users\Public\Documents\dotnet\OperadoresCondicionais\obj\Debug\net6.0\OperadoresCondicionais.genruntimeconfig.cache
+C:\Users\Public\Documents\dotnet\OperadoresCondicionais\obj\Debug\net6.0\ref\OperadoresCondicionais.dll
