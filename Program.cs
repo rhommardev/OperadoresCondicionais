@@ -41,3 +41,18 @@ else // si no se cumple la condicion
 {
     Console.WriteLine("Não pode entrar na festa"); //imprime mensaje de que no puede entrar a la fiesta
 }
+
+//OPERADOR AND
+
+bool possuiPresencaMinima = true;
+double notaFinal = 7.5;
+
+if (possuiPresencaMinima && notaFinal >= 6.0) // si posee presencia minima y la nota final es mayor o igual a 6
+{
+    Console.WriteLine("Aprovado"); //imprime mensaje de aprobado
+}
+else // si no se cumple la condicion
+{
+    Console.WriteLine("Reprovado"); //imprime mensaje de reprobado
+}   
+
