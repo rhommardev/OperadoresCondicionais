@@ -54,5 +54,26 @@ if (possuiPresencaMinima && notaFinal >= 6.0) // si posee presencia minima y la 
 else // si no se cumple la condicion
 {
     Console.WriteLine("Reprovado"); //imprime mensaje de reprobado
-}   
+}
 
+//OPERADOR NOT
+
+bool choveou = false;
+bool estaTarde = false;
+
+
+if (!choveou && !estaTarde) // si choveu y no esta tarde usando el simbolo ! se niega la afirmacion 
+{
+    Console.WriteLine("Leve um guarda-chuva"); //imprime mensaje de que lleve un paraguas
+}
+else // si no se cumple la condicion
+{
+    Console.WriteLine("Não precisa de guarda-chuva"); //imprime mensaje de que no necesita paraguas
+}
+//OPERADOR TERNARIO
+// Declaración de variables
+int idade = 17;
+
+// Operador ternario para verificar si la persona es mayor de edad  
+string resultado = (idade >= 18) ? "É maior de idade" : "É menor de idade"; // si la edad es mayor o igual a 18 imprime que es mayor de edad, si no imprime que es menor de edad
+Console.WriteLine(resultado); // imprime el resultado de la verificación    
