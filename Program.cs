@@ -41,7 +41,7 @@ else
 {
     Console.WriteLine("Desculpe. não temos estoque suficiente"); //imprime mensaje de que no hay suficiente inventario  
 }
-*/
+
 
 //otro ejemplo de condicionales usando ELSE IF 
 int quantidadeEmEstoque = 10; // cantidad en el inventario
@@ -66,8 +66,54 @@ else
     Console.WriteLine("Desculpe. não temos estoque suficiente"); //imprime mensaje de que no hay suficiente inventario  
 }
 
+
+// ejemplo usando switch case
+Console.WriteLine("Digite una vogal");
+string letra = Console.ReadLine();
+switch (letra) // convierte la letra a minuscula para evitar errores
+{
+    case "a":
+        Console.WriteLine("A letra é A");
+        break;
+    case "e":
+        Console.WriteLine("A letra é E");
+        break;
+    case "i":
+        Console.WriteLine("A letra é I");
+        break;
+    case "o":
+        Console.WriteLine("A letra é O");
+        break;
+    case "u":
+        Console.WriteLine("A letra é U");
+        break;
+    default:
+        Console.WriteLine("Não é uma vogal"); // si no es una vocal imprime este mensaje
+        break;
+}
+*/
+//segundo ejemplo mejorando el switch case  usando if else e haciendo el codigo mas corto
+
+Console.WriteLine("Digite uma letra");
+string letra = Console.ReadLine(); 
+
+if (
+letra == "a" ||
+letra == "e" ||
+letra == "i" ||
+letra == "o" ||
+letra == "u") // si la letra es una vocal
+{
+    Console.WriteLine($"A letra é vogal"); // imprime la letra en mayuscula
+}
+else // si no es una vocal
+{
+    Console.WriteLine("Não é uma vogal"); // imprime mensaje de que no es una vocal
+}
+
+
+
 /*
-//ejemplo 2  
 //OPERADORES LOGICOS
 
 //OPERADOR OR 
