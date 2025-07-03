@@ -3,7 +3,7 @@ using System;
 using System.Reflection.Metadata;
 
 // Título: Condicionales en C#
-
+/*
 //paso  1 declaración de variables
 int quantidadeEnEstoque = 10;
 int quantidadeCompra = 4;
@@ -22,7 +22,51 @@ else // si no se cumple la condicion
     Console.WriteLine("Desculpe. não temos estoque suficiente"); //imprime este mensaje
 }
 
+//segundo ejemplo de condicionales
+int quantidadeEmEstoque = 10; // cantidad en el inventario
+int quantidadeCompra  = 4; // cantidad comprada
+bool possivelVenda = quantidadeEmEstoque >= quantidadeCompra;
 
+
+Console.WriteLine($"Quantidade em estoque: {quantidadeEmEstoque}");
+Console.WriteLine($"Quantidade da compra: {quantidadeCompra}");
+Console.WriteLine($"Possível venda: {possivelVenda}"); // imprime si es posible la venta    
+
+
+if (possivelVenda)
+{
+    Console.WriteLine("Venda realizada"); //imprime mensaje de venta realizada
+}
+else
+{
+    Console.WriteLine("Desculpe. não temos estoque suficiente"); //imprime mensaje de que no hay suficiente inventario  
+}
+*/
+
+//otro ejemplo de condicionales usando ELSE IF 
+int quantidadeEmEstoque = 10; // cantidad en el inventario
+int quantidadeCompra  = 4; // cantidad comprada
+bool possivelVenda = quantidadeEmEstoque >= quantidadeCompra;
+
+
+Console.WriteLine($"Quantidade em estoque: {quantidadeEmEstoque}");
+Console.WriteLine($"Quantidade da compra: {quantidadeCompra}");
+Console.WriteLine($"Possível venda: {possivelVenda}"); // imprime si es posible la venta    
+
+if (quantidadeCompra == 0)
+{ 
+    Console.WriteLine("COMPRA INVALIDA"); //imprime mensaje de que el inventario esta vacio
+}
+else if (possivelVenda)
+{
+    Console.WriteLine("Venda realizada"); //imprime mensaje de venta realizada
+}
+else
+{
+    Console.WriteLine("Desculpe. não temos estoque suficiente"); //imprime mensaje de que no hay suficiente inventario  
+}
+
+/*
 //ejemplo 2  
 //OPERADORES LOGICOS
 
@@ -82,3 +126,5 @@ Console.WriteLine(resultado); // imprime el resultado de la verificación
 // 2. Selecciona "Nuevo archivo".
 // 3. Escribe "README.md" como nombre del archivo y presiona Enter.
 // 4. Escribe el contenido que desees y guarda el archivo.
+
+*/
