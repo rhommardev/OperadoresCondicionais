@@ -16,6 +16,9 @@ Este proyecto contiene ejemplos prácticos sobre el uso de operadores condiciona
 - `||` (OR lógico): Devuelve `true` si al menos una de las expresiones es verdadera.
 - `!` (NOT lógico): Invierte el valor de una expresión booleana.
 
+//SE OBSERVAN CONFLICTOS EN EL CODIGO DEBIDO A QUE SE USARON LAS MISMAS VARIABLES EN DIFERENTES EJEMPLOS. 
+// QUIEN PUEDA SOLUCIONARLOS DEBE CAMBIAR LOS NOMBRES DE LAS VARIABLES PARA QUE NO HAYA CONFLICTOS.
+//QUEDA A CRITERIO DEL USUARIO SI QUIERE COLABORAR EDITANDO EL CÓDIGO .
 
 ## Recursos
 
