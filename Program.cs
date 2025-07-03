@@ -3,7 +3,7 @@ using System;
 using System.Reflection.Metadata;
 
 // Título: Condicionales en C#
-/*
+
 //paso  1 declaración de variables
 int quantidadeEnEstoque = 10;
 int quantidadeCompra = 4;
@@ -91,7 +91,7 @@ switch (letra) // convierte la letra a minuscula para evitar errores
         Console.WriteLine("Não é uma vogal"); // si no es una vocal imprime este mensaje
         break;
 }
-*/
+
 //segundo ejemplo mejorando el switch case  usando if else e haciendo el codigo mas corto
 
 Console.WriteLine("Digite uma letra");
@@ -113,7 +113,7 @@ else // si no es una vocal
 
 
 
-/*
+
 //OPERADORES LOGICOS
 
 //OPERADOR OR 
@@ -173,4 +173,3 @@ Console.WriteLine(resultado); // imprime el resultado de la verificación
 // 3. Escribe "README.md" como nombre del archivo y presiona Enter.
 // 4. Escribe el contenido que desees y guarda el archivo.
 
-*/
