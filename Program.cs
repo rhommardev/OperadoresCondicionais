@@ -2,15 +2,17 @@
 using System;
 using System.Reflection.Metadata;
 
+//SE OBSERVAN CONFLICTOS EN EL CODIGO DEBIDO A QUE SE USARON LAS MISMAS VARIABLES EN DIFERENTES EJEMPLOS. 
+// QUIEN PUEDA SOLUCIONARLOS DEBE CAMBIAR LOS NOMBRES DE LAS VARIABLES PARA QUE NO HAYA CONFLICTOS.
+//QUEDA A CRITERIO DEL USUARIO SI QUIERA COLABORAR EDITANDO EL CÓDIGO .
+
+
+
 // Título: Condicionales en C#
 
 //paso  1 declaración de variables
 int quantidadeEnEstoque = 10;
 int quantidadeCompra = 4;
-
-
-
-
 
 //paso 2 bloque de codigo condicional
 if (quantidadeEnEstoque >= quantidadeCompra) // si quantidade estoque es mayor o igual a quantidade compra
