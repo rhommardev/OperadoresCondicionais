@@ -1,7 +1,16 @@
-# Operadores Lógicos en C# (.NET 6)
+
+
+
+
+# Operadores Condicionales y Lógicos en C# (.NET 6)
 
 Este proyecto contiene ejemplos prácticos sobre el uso de operadores lógicos en C# utilizando .NET 6. Los operadores lógicos permiten combinar expresiones booleanas y tomar decisiones en el flujo del programa.
-
+## Operadores Condicionais 
+- IF
+- ELSE
+- ELSE IF
+- SWITCH CASE
+  
 ## Operadores Lógicos Principales
 
 - `&&` (AND lógico): Devuelve `true` si ambas expresiones son verdaderas.
